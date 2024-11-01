@@ -1,9 +1,19 @@
 {
+<<<<<<< HEAD
   "name": "solid",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "karma start"
+=======
+  "name": "cursots",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "build:frontend": "webpack -w",
+    "build:backend": "tsc"
+>>>>>>> 1c9bd6fe6a529d960622d5bbe5d04a48a6d1d5e1
   },
   "keywords": [],
   "author": "",
@@ -28,8 +38,19 @@
     "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3",
+<<<<<<< HEAD
     "typescript-eslint": "^8.11.0"
   },
   "dependencies": {
+=======
+    "typescript-eslint": "^8.11.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "@types/node": "^22.7.9",
+    "validator": "^13.12.0"
+>>>>>>> 1c9bd6fe6a529d960622d5bbe5d04a48a6d1d5e1
   }
 }
